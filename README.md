@@ -31,8 +31,23 @@ He implementado una nueva funcionalidad en mi juego: ahora puedo moverme hacia l
 He aprendido a ajustar la escala de los objetos y a utilizar declaraciones con operadores mayor/menor que.
 
 # Lección 2.2
-1. ****:
-
+1. **Hacer que el proyectil vuele hacia adelante**:
+   1.1: Primero, creé un nuevo script llamado MoveForward, lo adjunté al objeto de comida y luego lo abrí.
+   1.2: Declaré una nueva variable pública de tipo flotante para la velocidad.
+   1.3 En el método Update(), añadí transform.Translate(Vector3.forward * Time.deltaTime * speed); y luego guardé los cambios.
+   1.4 Finalmente, en el Inspector, configuré la variable de velocidad del proyectil y probé para asegurarme de que funcionara 
+   correctamente.
+2. **Convertir el proyectil en una prefabricada**:
+   2.1: Creé una nueva carpeta llamada Prefabs, arrastré mi objeto de comida hacia ella y elegí Prefab original.
+   2.2: Luego, en PlayerController.cs, declaré una nueva variable pública de tipo GameObject llamada projectilePrefab.
+   2.3 Después, seleccioné el jugador en la jerarquía y arrastré el objeto desde mi carpeta Prefabs hacia el nuevo cuadro de Prefab de 
+   proyectil en el Inspector.
+   2.4: Finalmente, intenté arrastrar el proyectil hacia la escena en tiempo de ejecución para asegurarme de que volaba correctamente.
+3. **Prueba de pulsación de la barra espaciadora**:
+   3.1: En PlayerController.cs, en el método Update(), agregué una declaración if para verificar si se presiona la barra espaciadora con 
+   if (Input.GetKeyDown(KeyCode.Space)).
+   3.2: Dentro de esta declaración if, añadí un comentario que indica que debo // Lanzar un proyectil desde el jugador.
+   
 # Enlace a video:
 - [Lección 1](https://link-a-leccion-1.com)
 - [Desafío 1](https://link-a-desafio-1.com)
