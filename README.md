@@ -115,7 +115,5 @@
    5.3: Si estás usando Visual Studio, hice clic en Editar > Avanzado > Formatear documento para solucionar cualquier problema de 
    indentación.
 # Enlace a video:
-- [Lección 1](https://link-a-leccion-1.com)
-- [Desafío 1](https://link-a-desafio-1.com)
-- [Laboratorio 1](https://link-a-laboratorio-1.com)
-- [Prueba 1](https://link-a-prueba-1.com)
+- [Archivo package](https://link-a-desafio-1.com)
+- [Lección 2.1 a 2.4](https://link-a-leccion-1.com)
