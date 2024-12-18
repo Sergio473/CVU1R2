@@ -1,9 +1,4 @@
-# CVU1R2
-
-# Repositorio CVU1R2
-
-# Jugabilidad básica
-
+# Unidad 2 - Jugabilidad básica
 
 ## Lección 2.1: 
 1. **Crear y importar proyecto**: Primero cree un nuevo proyecto en 3D llamado "prototype_2" en el cual importamos los archivos necesarios y en las escenas eliminamos la escena llamada "sampleEscene"
@@ -114,6 +109,11 @@
    5.2: Luego, limpié el código añadiendo comentarios.\
    5.3: Si estás usando Visual Studio, hice clic en Editar > Avanzado > Formatear documento para solucionar cualquier problema de 
    indentación.
-# Enlace a video:
+# Enlaces:
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Prototype)
-- [Video demostración de juego lección 2.1 a 2.4](https://link-a-leccion-1.com)
+- [Video demostración de juego lección 2.1 a 2.4]([https://link-a-leccion-1.com](https://drive.google.com/file/d/1Y-Xul7GW-bXNIa3R4WPfGCgYG2nfUh5w/view?usp=drive_link))
+
+# Unidad 3 - Sonidos y efectos
+
+## Lección 3.1
+1. ****:
