@@ -116,4 +116,5 @@
    indentación.
 # Enlace a video:
 - [Archivo package](https://link-a-desafio-1.com)
+- [Release](https://github.com/tu_usuario/tu_repositorio/releases)
 - [Lección 2.1 a 2.4](https://link-a-leccion-1.com)
