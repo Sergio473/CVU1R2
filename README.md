@@ -116,4 +116,55 @@
 # Unidad 3 - Sonidos y efectos
 
 ## Lección 3.1
-1. ****:
+1. **Abrir prototipo y cambiar el fondo**: \
+   1.1: Abrí Unity Hub y creé un proyecto vacío llamado "Prototype 3" en el directorio de mi curso, usando la versión correcta de Unity. \
+   1.2: Luego, hice clic para descargar los archivos iniciales de Prototype 3, extraje la carpeta comprimida y luego importé el .unitypackage en mi proyecto. \
+   1.3: Abrí la escena de Prototype 3 y eliminé la escena de muestra sin guardar. \
+   1.4: Después, seleccioné el objeto de fondo en la jerarquía y en el componente Sprite Renderer, seleccioné la imagen _City, _Nature, o _Town.
+2. **Elige y configura un personaje jugador**: \
+   2.1: Desde la Course Library, en la sección de Characters, arrastré un personaje a la jerarquía, lo renombré como “Player” y luego lo giré en el eje Y para que mirara hacia la 
+   derecha. \
+   2.2: Añadí un componente de Rigid Body. \
+   2.3: Luego, añadí un box collider y edité los límites del collider.
+   2.4: Creé una nueva carpeta llamada “Scripts” en Assets, creé un script llamado “PlayerController” dentro y lo adjunté al jugador.
+3. **Hacer saltar al jugador al inicio**: \
+   3.1: En PlayerController.cs, declaré una nueva variable privada de tipo Rigidbody llamada playerRb. \
+   3.2: En el método Start(), inicialicé playerRb con GetComponent<Rigidbody>(). \
+   3.3: Además, en Start(), utilicé el método AddForce para hacer que el jugador saltara al inicio del juego. 
+4. **Hacer que el jugador salte si se presiona la barra espaciadora**: \
+   4.1: En el método Update(), añadí una declaración if-then para verificar si se presiona la barra espaciadora. \
+   4.2: Luego, corté y pegué el código AddForce desde Start() dentro de la declaración if. \
+   4.3: También añadí el parámetro ForceMode.Impulse a la llamada AddForce y reduje el valor del multiplicador de fuerza.
+5. **Ajusta la fuerza del salto y la gravedad**:
+   5.1: Reemplacé el valor codificado con una nueva variable pública de tipo flotante llamada jumpForce. \
+   5.2: Luego, añadí una nueva variable pública de tipo flotante llamada gravityModifier y, en el método Start(), agregué Physics.gravity *= gravityModifier;. \
+   5.3: En el Inspector, ajusté los valores de gravityModifier, jumpForce, y la masa del Rigidbody para hacerlo más divertido.
+6. **Evitar que el jugador doble salto**: \
+   6.1: Primero, añadí una nueva variable pública de tipo bool llamada isOnGround y la establecí en true. \
+   6.2: En la declaración if que permite al jugador saltar, establecí isOnGround = false y luego probé para asegurarme de que funcionara correctamente. \
+   6.3: Añadí una condición && isOnGround a la declaración if. \
+   6.4: Luego, añadí un nuevo método void OnCollisionEnter y dentro de este método establecí isOnGround = true. Probé nuevamente para confirmar que todo funcionaba correctamente.
+7. **Crea un obstáculo y muévelo hacia la izquierda.**: \
+   7.1: Desde la Course Library, en la sección de Obstacles, añadí un obstáculo, lo renombré como “Obstacle” y lo posicioné en el lugar donde debería aparecer. \
+   7.2: Apliqué un componente Rigid Body y un Box Collider, luego edité los límites del collider para ajustarlo al obstáculo. \
+   7.3: Creé una nueva carpeta llamada “Prefabs” y arrastré el obstáculo dentro para crear un nuevo Prefab Original. \
+   7.4: Luego, creé un nuevo script llamado MoveLeft, lo apliqué al obstáculo y lo abrí. \
+   7.5: En MoveLeft.cs, escribí el código para trasladarlo hacia la izquierda según la variable de velocidad. Finalmente, apliqué el script MoveLeft al fondo.
+8. **Crear un administrador de spawn**: \
+   8.1: Primero, creé un nuevo objeto vacío llamado "Spawn Manager" y le apliqué un nuevo script llamado SpawnManager.cs. \
+   8.2: En SpawnManager.cs, declaré una nueva variable pública de tipo GameObject llamada obstaclePrefab y luego asigné mi prefab a la nueva variable en el Inspector. \
+   8.3: Luego, declaré una nueva variable privada de tipo Vector3 llamada spawnPos en mi ubicación de aparición. \
+   8.4: En el método Start(), instancié un nuevo prefab de obstáculo, luego eliminé el prefab de la escena y probé para asegurarme de que funcionara correctamente.
+9. **Generar obstáculos a intervalos**: \
+   9.1: Creé un nuevo método void SpawnObstacle(), luego moví la llamada a Instantiate dentro de este método. \
+   9.2: Luego, creé nuevas variables de tipo flotante para startDelay y repeatRate. Hice que mis obstáculos se generaran en intervalos utilizando el método InvokeRepeating(). \
+   9.3: En el componente Rigid Body del jugador, expandí las restricciones y congelé todas las posiciones excepto la posición Y.
+
+## Lección 3.2
+
+
+
+
+
+
+   
