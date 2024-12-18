@@ -25,12 +25,13 @@
    6.1 Repetí este proceso para el lado derecho de la pantalla. \
    6.2 Luego, declaré una nueva variable llamada xRange y reemplacé los valores codificados con ella. \
    6.3 Además, añadí comentarios a mi código para hacerlo más claro.
-# Nueva Funcionalidad
+### Nueva Funcionalidad
 He implementado una nueva funcionalidad en mi juego: ahora puedo moverme hacia la izquierda y hacia la derecha según las pulsaciones de las teclas izquierda y derecha. También me aseguré de que no pueda salir del área de juego por ninguno de los lados.
-# Nuevos Conceptos y Habilidades
+### Nuevos Conceptos y Habilidades
 He aprendido a ajustar la escala de los objetos y a utilizar declaraciones con operadores mayor/menor que.
 
-### Lección 2.2
+# Lección 2.2
+1. ****:
 
 # Enlace a video:
 - [Lección 1](https://link-a-leccion-1.com)
