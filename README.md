@@ -16,21 +16,21 @@
   funcionara en el Inspector. 
 4. **Mover el jugador de Izquierda a Derecha**: \
    4.1 Primero, declaré una nueva variable pública de tipo flotante llamada speed y la establecí en 10.0. \
-   4.2 Luego, en el método Update(), hice que el jugador se moviera de lado a lado en función de horizontalInput y speed. \
+   4.2 Luego, en el método Update(), hice que el jugador se moviera de lado a lado en función de horizontalInput y speed. 
 5. **Mantener a la jugador@ dentro**: \
    5.1 Primero, en el método Update(), escribí una sentencia if para verificar si la posición X izquierda del jugador es menor que un 
    valor determinado. \
    5.2 Luego, en la sentencia if, establecí la posición del jugador en su posición actual, pero con una ubicación X fija. 
-6. **Limpia tu código y variables**:
-   6.1 Repetí este proceso para el lado derecho de la pantalla.
-   6.2 Luego, declaré una nueva variable llamada xRange y reemplacé los valores codificados con ella.
+6. **Limpia tu código y variables**: \
+   6.1 Repetí este proceso para el lado derecho de la pantalla. \
+   6.2 Luego, declaré una nueva variable llamada xRange y reemplacé los valores codificados con ella. \
    6.3 Además, añadí comentarios a mi código para hacerlo más claro.
-
-### Nueva Funcionalidad
+# Nueva Funcionalidad
 He implementado una nueva funcionalidad en mi juego: ahora puedo moverme hacia la izquierda y hacia la derecha según las pulsaciones de las teclas izquierda y derecha. También me aseguré de que no pueda salir del área de juego por ninguno de los lados.
-
-### Nuevos Conceptos y Habilidades
+# Nuevos Conceptos y Habilidades
 He aprendido a ajustar la escala de los objetos y a utilizar declaraciones con operadores mayor/menor que.
+
+### Lección 2.2
 
 # Enlace a video:
 - [Lección 1](https://link-a-leccion-1.com)
