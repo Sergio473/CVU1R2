@@ -115,6 +115,5 @@
    5.3: Si estás usando Visual Studio, hice clic en Editar > Avanzado > Formatear documento para solucionar cualquier problema de 
    indentación.
 # Enlace a video:
-- [Archivo package](https://link-a-desafio-1.com)
-- ([release de CVU1R2 en GitHub](https://github.com/Sergio473/CVU1R2/releases/Prototype)
-- [Lección 2.1 a 2.4](https://link-a-leccion-1.com)
+- [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Prototype)
+- [Video demostración de juego lección 2.1 a 2.4](https://link-a-leccion-1.com)
