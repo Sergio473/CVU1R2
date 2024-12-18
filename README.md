@@ -10,17 +10,17 @@
 3. **Obtener la entrada horizontal de los usuarios**: \
   3.1. En la carpeta **Assets**, creé una carpeta llamada **Scripts** y un guión llamado **JugadorControlador** dentro. \
   3.2. Luego, arrastre el Script hasta el archivo de Player y lo abrí. \
-  3.3. En la parte superior de **PlayerController.cs**, declaré una nueva variable de tipo flotante público llamada     
+  3.3. En la parte superior de **PlayerController.cs**, declaré una nueva variable de tipo flotante público llamada   
   **horizontalInput**. \
   3.4. Después en la función **Update()**, asigné **horizontalInput** a `Input.GetAxis("Horizontal")` y probé para asegurarme de que     
-  funcionara en el Inspector. \
+  funcionara en el Inspector. 
 4. **Mover el jugador de Izquierda a Derecha**: \
    4.1 Primero, declaré una nueva variable pública de tipo flotante llamada speed y la establecí en 10.0. \
    4.2 Luego, en el método Update(), hice que el jugador se moviera de lado a lado en función de horizontalInput y speed. \
 5. **Mantener a la jugador@ dentro**: \
    5.1 Primero, en el método Update(), escribí una sentencia if para verificar si la posición X izquierda del jugador es menor que un 
    valor determinado. \
-   5.2 Luego, en la sentencia if, establecí la posición del jugador en su posición actual, pero con una ubicación X fija. \
+   5.2 Luego, en la sentencia if, establecí la posición del jugador en su posición actual, pero con una ubicación X fija. 
 6. **Limpia tu código y variables**:
    6.1 Repetí este proceso para el lado derecho de la pantalla.
    6.2 Luego, declaré una nueva variable llamada xRange y reemplacé los valores codificados con ella.
