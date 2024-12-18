@@ -111,7 +111,7 @@
    indentación.
 # Enlaces:
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Prototype)
-- [Video demostración de juego lección 2.1 a 2.4]([https://link-a-leccion-1.com](https://drive.google.com/file/d/1Y-Xul7GW-bXNIa3R4WPfGCgYG2nfUh5w/view?usp=drive_link))
+- [Video demostración de juego lección 2.1 a 2.4](https://drive.google.com/file/d/1Y-Xul7GW-bXNIa3R4WPfGCgYG2nfUh5w/view?usp=drive_link)
 
 # Unidad 3 - Sonidos y efectos
 
