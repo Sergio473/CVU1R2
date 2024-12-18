@@ -8,14 +8,14 @@
 1. **Crear y importar proyecto**: Primero cree un nuevo proyecto en 3D llamado "prototype_2" en el cual importamos los archivos necesarios y en las escenas eliminamos la escena llamada "sampleEscene"
 2. **Agregar el jugador, animales y comida**: En este paso agregamos 1 humano, 3 animales y 1 comida, además de cambiarle el nombre al humano por "Player" y por último ajustamos la escala de la comida.
 3. **Obtener la entrada horizontal de los usuarios**: \
-  3.1. En la carpeta **Assets**, creé una carpeta llamada **Scripts** y un guión llamado **JugadorControlador** dentro. \
+  3.1. En la carpeta **Assets**, creé una carpeta llamada **Scripts** y un guión llamado **PlayerController** dentro. \
   3.2. Luego, arrastre el Script hasta el archivo de Player y lo abrí. \
   3.3. En la parte superior de **PlayerController.cs**, declaré una nueva variable de tipo flotante público llamada   
   **horizontalInput**. \
   3.4. Después en la función **Update()**, asigné **horizontalInput** a `Input.GetAxis("Horizontal")` y probé para asegurarme de que     
   funcionara en el Inspector. 
 4. **Mover el jugador de Izquierda a Derecha**: \
-   4.1 Primero, declaré una nueva variable pública de tipo flotante llamada speed y la establecí en 10.0. \
+   4.1 Primero, declaré una nueva variable pública de tipo flotante llamada speed y la establecí en 15.0. \
    4.2 Luego, en el método Update(), hice que el jugador se moviera de lado a lado en función de horizontalInput y speed. 
 5. **Mantener a la jugador@ dentro**: \
    5.1 Primero, en el método Update(), escribí una sentencia if para verificar si la posición X izquierda del jugador es menor que un 
@@ -59,7 +59,30 @@
 7. **Destruir animales fuera de la pantalla**: \
    7.1: Creé una declaración else-if para verificar si los objetos están por debajo del límite inferior utilizando else if (transform.position.z < lowerBound). \
    7.2: Luego, apliqué el script a todos los animales y anulé los prefabricados.
-   
+
+# Lección 2.3
+1. **Crear un administrador de spawn**: \
+   1.1: En la Hierarchy, creé un objeto vacío llamado SpawnManager. \
+   1.2: Luego, creé un nuevo script llamado SpawnManager, lo adjunté al Spawn Manager y lo abrí. \
+   1.3: Declaré un nuevo arreglo público de GameObject llamado animalPrefabs. \
+   1.4: En el Inspector, cambié el tamaño del arreglo para que coincidiera con la cantidad de animales y luego asigné mis animales 
+   arrastrándolos desde la ventana del Proyecto a los espacios vacíos.
+2. **Genera un animal si se presiona S**:
+   2.1: En el método Update(), escribí una declaración if-then para crear una instancia de un nuevo prefab de animal en la parte superior 
+   de la pantalla si se presiona la tecla "S". \
+   2.2: Luego, declaré un nuevo entero público llamado animalIndex e incorporé esta variable en la llamada Instantiate. \
+   2.3: Después, probé editando el valor en el Inspector para asegurarme de que funcionara correctamente.
+3. **Generar animales aleatorios a partir de una matriz**:
+   3.1: En la instrucción if que verifica si se presiona la tecla "S", generé un entero animalIndex aleatorio entre 0 y la longitud de la 
+   matriz. \
+   3.2: Luego, eliminé la variable global animalIndex, ya que solo se necesitaba localmente dentro de la instrucción if.
+4. **Aleatorizar la ubicación de aparición**:
+   4.1: Reemplacé el valor X de Vector3 con Random.Range(-20, 20), luego probé para asegurarme de que funcionara correctamente. \
+   4.2: Dentro de la declaración if, creé una nueva variable local Vector3 llamada spawnPos. En la parte superior de la clase, creé 
+   variables privadas de tipo flotante para spawnRangeX y spawnPosZ.
+5. **Cambiar la perspectiva de la cámara**:
+   5.1: Alterné entre la vista en perspectiva y la vista isométrica en la vista de escena para apreciar la diferencia. \
+   5.2: Luego, seleccioné la cámara y cambié la proyección de "Perspectiva" a "Ortográfica".
 # Enlace a video:
 - [Lección 1](https://link-a-leccion-1.com)
 - [Desafío 1](https://link-a-desafio-1.com)
