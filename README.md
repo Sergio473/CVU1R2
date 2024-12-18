@@ -2,9 +2,10 @@
 
 # Repositorio CVU1R2
 
-## Enlaces a actividades
+# Jugabilidad básica
 
-# Lección 2.1: 
+
+## Lección 2.1: 
 1. **Crear y importar proyecto**: Primero cree un nuevo proyecto en 3D llamado "prototype_2" en el cual importamos los archivos necesarios y en las escenas eliminamos la escena llamada "sampleEscene"
 2. **Agregar el jugador, animales y comida**: En este paso agregamos 1 humano, 3 animales y 1 comida, además de cambiarle el nombre al humano por "Player" y por último ajustamos la escala de la comida.
 3. **Obtener la entrada horizontal de los usuarios**: \
@@ -26,7 +27,7 @@
    6.2 Luego, declaré una nueva variable llamada xRange y reemplacé los valores codificados con ella. \
    6.3 Además, añadí comentarios a mi código para hacerlo más claro.
 
-# Lección 2.2
+## Lección 2.2
 1. **Hacer que el proyectil vuele hacia adelante**: \
    1.1: Primero, creé un nuevo script llamado MoveForward, lo adjunté al objeto de comida y luego lo abrí. \
    1.2: Declaré una nueva variable pública de tipo flotante para la velocidad. \
@@ -60,7 +61,7 @@
    7.1: Creé una declaración else-if para verificar si los objetos están por debajo del límite inferior utilizando else if (transform.position.z < lowerBound). \
    7.2: Luego, apliqué el script a todos los animales y anulé los prefabricados.
 
-# Lección 2.3
+## Lección 2.3
 1. **Crear un administrador de spawn**: \
    1.1: En la Hierarchy, creé un objeto vacío llamado SpawnManager. \
    1.2: Luego, creé un nuevo script llamado SpawnManager, lo adjunté al Spawn Manager y lo abrí. \
@@ -83,6 +84,36 @@
 5. **Cambiar la perspectiva de la cámara**:
    5.1: Alterné entre la vista en perspectiva y la vista isométrica en la vista de escena para apreciar la diferencia. \
    5.2: Luego, seleccioné la cámara y cambié la proyección de "Perspectiva" a "Ortográfica".
+
+## Lección 2.4:
+1. **Crea un nuevo método para generar animales.**:
+   1.1:En SpawnManager.cs, creé una nueva función void SpawnRandomAnimal() {} debajo del método Update(). Corté y pegué el código de la 
+   declaración if-then a la nueva función. \
+   1.2: Luego, llamé a SpawnRandomAnimal(); si se presionaba la tecla "S".
+2. **Generar animales a intervalos cronometrados**:\
+   2.1: En el método Start(), utilicé InvokeRepeating para generar los animales en intervalos regulares y luego probé para asegurarme de 
+   que funcionara. Eliminé la declaración if-then que comprobaba si se presionaba la tecla "S". \
+   2.2: También, declaré nuevas variables privadas llamadas startDelay y spawnInterval, y luego realicé pruebas y ajustes en los valores 
+   de estas variables.
+3. **Agregar componentes de colisionador y disparador**: \
+   3.1: Primero, hice doble clic en uno de los prefabs de animales, luego añadí un componente de Box Collider. \
+   3.2: Me aseguré de que "Auto Save" estuviera habilitado en la esquina superior derecha de la vista de escena. \
+   3.3: Hice clic en "Edit Collider", luego arrastré los manejadores del collider para abarcar el objeto. Marqué la casilla de 
+   verificación "Is Trigger". \
+   3.4: Usé el menú desplegable de Overrides para aplicar este Trigger a todos los prefabs de este animal. \
+   3.5: Repetí este proceso para cada uno de los animales y el proyectil. \
+   3.6: Finalmente, añadí un componente RigidBody al proyectil y desmarqué "use gravity".
+4. **Destruir objetos en caso de colisión**: \
+   4.1: Primero, creé un nuevo script llamado DetectCollisions.cs y lo añadí a cada prefab de animal, luego lo abrí. \
+   4.2: Antes del último }, añadí la función OnTriggerEnter usando la función de autocompletar. \
+   4.3: En OnTriggerEnter, incluí Destroy(gameObject); y luego probé para asegurarme de que funcionara. \
+   4.4: Después, en OnTriggerEnter, también añadí Destroy(other.gameObject);.
+5. **Activar un mensaje de “Juego terminado”**: \
+   5.1: En DestroyOutOfBounds.cs, en la condición else-if que verifica si los animales llegan al fondo de la pantalla, añadí un mensaje 
+   de "Game Over" con Debug.Log("Game Over!"). \
+   5.2: Luego, limpié el código añadiendo comentarios.\
+   5.3: Si estás usando Visual Studio, hice clic en Editar > Avanzado > Formatear documento para solucionar cualquier problema de 
+   indentación.
 # Enlace a video:
 - [Lección 1](https://link-a-leccion-1.com)
 - [Desafío 1](https://link-a-desafio-1.com)
