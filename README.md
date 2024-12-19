@@ -2,13 +2,13 @@
 
 ## Enlaces a archivo y video:
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Prototype)
-- [Video demostración de juego lección 2.1 a 2.4](https://drive.google.com/file/d/1Y-Xul7GW-bXNIa3R4WPfGCgYG2nfUh5w/view?usp=drive_link)
+- [Video demostración de juego lección 2.1 a 2.4](https://drive.google.com/file/d/1DQsejDUuA8zs-x1nhNeTgW5EdP5WNdDK/view?usp=sharing)
 
 # Unidad 3 - Sonidos y efectos
 
 ## Enlaces a archivo y video:
-- [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Prototype)
-- [Video demostración de juego lección 2.1 a 2.4](https://drive.google.com/file/d/1Y-Xul7GW-bXNIa3R4WPfGCgYG2nfUh5w/view?usp=drive_link)
+- [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Prototype3)
+- [Video demostración de juego lección 3.1 a 3.4](https://drive.google.com/file/d/1FaLsA0AFhRHBucEqV3HWurF9vtgG9Sjn/view?usp=sharing)
   
 ## Lección 3.1
 1. **Abrir prototipo y cambiar el fondo**: \
