@@ -131,8 +131,27 @@
    6.3 Llamé a playerAudio.PlayOneShot(jumpSound, 1.0f); cuando el personaje saltaba. \
    6.4 Llamé a playerAudio.PlayOneShot(crashSound, 1.0f); cuando el personaje chocaba.
    
+# Actividad 2 - Desafíos
 
+## Desafío 3: Globos, bombas y booleanos
+1. El globo debe elevarse hacia arriba cuando presiono la barra espaciadora.
+He notado que hay un error «NullReferenceException» en la variable Rigidbody del jugador; necesito asignarla en el método Start() usando GetComponent<>.
+![Imagen del globo](images/globo.png)
 
+2. El fondo debe comenzar a moverse y detenerse cuando el juego termine.
+En el script MoveLeftX.cs, los objetos solo deben moverse a la izquierda si el juego no ha terminado.
+![Imagen del globo](images/globo.png)
 
+3. Tengo que hacer que se generen bombas y objetos monetarios en intervalos de tiempo específicos.
+Aparece un mensaje de error que dice «Trying to Invoke method: SpawnManagerX.PrawnsObject couldn't be called»; debo tener en cuenta que la ortografía es crucial.
+![Imagen del globo](images/globo.png)
+
+4. Necesito hacer que el globo rebote en el suelo para evitar que se salga por la parte inferior de la pantalla. Además, debería haber un efecto de sonido cuando esto suceda.
+Debo encontrar una manera de comprobar si el globo colisiona con el suelo; si es así, agregaré una fuerza que lo impulse hacia arriba.
+![Imagen del globo](images/globo.png)
+
+5. El fondo debe repetirse sin causar errores.
+Pista: La variable repeatWidth debe ser la mitad del ancho del fondo, no de su alto.
+![Imagen del globo](images/globo.png)
 
    
