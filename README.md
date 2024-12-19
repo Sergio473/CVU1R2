@@ -160,7 +160,33 @@
    9.2: Luego, creé nuevas variables de tipo flotante para startDelay y repeatRate. Hice que mis obstáculos se generaran en intervalos utilizando el método InvokeRepeating(). \
    9.3: En el componente Rigid Body del jugador, expandí las restricciones y congelé todas las posiciones excepto la posición Y.
 
-## Lección 3.2
+## Lección 3.2 - Haz que el mundo pase volando
+1. **Crear un script para repetir el fondo**:
+   1.1 Creé un nuevo script llamado RepeatBackground.cs y lo adjunté al objeto de fondo. \
+2. Restablecer la posición del fondo: \
+   2.1 Declaré una nueva variable private Vector3 startPos;. \
+   2.2 En el método Start(), establecí la variable startPos en su posición inicial asignándole = transform.position;. \
+   2.3 En Update(), escribí una declaración if para restablecer la posición si se mueve una cierta distancia.
+3. Arreglar la repetición del fondo con un collider:
+   3.1 Añadí un componente Box Collider al fondo. \
+   3.2 Declaré una nueva variable private float repeatWidth;. \
+   3.3 En Start(), obtuve el ancho del box collider, dividido por 2. \
+   3.4 Incorporé la variable repeatWidth en la función de repetición.
+4. Añadir un nuevo desencadenante de "game over": \
+   4.1 En el inspector, añadí una etiqueta “Ground” al suelo y una etiqueta “Obstacle” al prefab del obstáculo. \
+   4.2 En PlayerController, declaré una nueva variable pública bool gameOver;. \
+   4.3 En OnCollisionEnter, añadí la declaración if-else para verificar si el jugador colisionó con el “Ground” o con un “Obstacle”. \
+   4.4 Si colisionaba con el “Ground”, establecía isOnGround = true, y si colisionaba con un “Obstacle”, establecía gameOver = true.
+5. Detener MoveLeft en "game over": \
+   5.1 En MoveLeft.cs, declaré un nuevo private PlayerController playerControllerScript;. \
+   5.2 En Start(), lo inicialicé buscando el jugador y obteniendo el componente PlayerController. \
+   5.3 Envolví el método Translate en una declaración if que verifica si el juego no ha terminado.
+6. Detener la aparición de obstáculos en "game over": \
+   6.1 En SpawnManager.cs, obtuve una referencia a playerControllerScript utilizando la misma técnica que en MoveLeft.cs. \
+   6.2 Añadí una condición para instanciar objetos solo si gameOver == false.
+7. Destruir obstáculos que salgan de los límites: \
+   7.1 En MoveLeft, en Update(), escribí una declaración if para destruir los obstáculos si su posición es menor que una variable leftBound. \
+   7.2 Añadí los comentarios necesarios para hacer que el código sea más legible.
 
 
 
