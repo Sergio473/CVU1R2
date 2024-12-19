@@ -103,7 +103,7 @@
 6. Evitar que el jugador salte estando inconsciente: \
    6.1 Para evitar que el jugador salte mientras está inconsciente, añadí && !gameOver a la condición de salto.
 
-Lección 3.4 - Particles and Sound Effects
+## Lección 3.4 - Particles and Sound Effects
 1. Personalizar una partícula de explosión: \
    1.1 Desde la Course Library, en la sección Particles, arrastré FX_Explosion_Smoke a la jerarquía y luego utilicé los botones Play / Restart / Stop para previsualizarla. \
    1.2 Jugué con los ajustes para que el sistema de partículas quedara como quería. \
