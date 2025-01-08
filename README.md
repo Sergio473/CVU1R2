@@ -33,8 +33,9 @@ Este desafío consiste en poner en práctica tus habilidades y solucionar los er
 2.	El jugador genera pelotas verdes en lugar de perros: Haz que el jugador genere perros
 3.	Las pelotas se destruyen en cualquier lugar cerca del perro: Las pelotas solo deben destruirse cuando entren en contacto directo con un perro.
 4.	No se está eliminando nada afuera de la pantalla: Las pelotas se deben destruir cuando salen de la parte inferior de la pantalla y los perros se deben destruir cuando salen del lado izquierdo de la pantalla.
-5.	Solo se genera un tipo de pelota: Las pelotas 1, 2 y 3 deberían aparecer aleatoriamente
-6.	Solo se genera un tipo de pelota: Las pelotas 1, 2 y 3 deberían aparecer aleatoriamente
+5.	Solo se genera un tipo de pelota: Las pelotas 1, 2 y 3 deberían aparecer aleatoriamente.
+6.	Solo se genera un tipo de pelota: Las pelotas 1, 2 y 3 deberían aparecer aleatoriamente.
+7.	Bono: el jugador puede presionar varias veces la barra espaciadora: El jugador solo podrá generar un nuevo perro después de un cierto periodo de tiempo.
 
 ### Enlaces a archivos desafío 2: 
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Desafio2)
