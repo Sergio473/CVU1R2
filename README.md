@@ -29,7 +29,16 @@ Este desafío consiste en poner en práctica tus habilidades y solucionar los er
 - [Video explicación](https://drive.google.com/file/d/12qtvjJFInExBBwCtfiLCwSrtHay-Hxnf/view?usp=sharing)
 
 ## Desafío 2: Jugar a traer la pelota
+1.	Se generan perros en la parte superior de la pantalla: Haz que se generen pelotas en la parte superior de la pantalla.
+2.	El jugador genera pelotas verdes en lugar de perros: Haz que el jugador genere perros
+3.	Las pelotas se destruyen en cualquier lugar cerca del perro: Las pelotas solo deben destruirse cuando entren en contacto directo con un perro.
+4.	No se está eliminando nada afuera de la pantalla: Las pelotas se deben destruir cuando salen de la parte inferior de la pantalla y los perros se deben destruir cuando salen del lado izquierdo de la pantalla.
+5.	Solo se genera un tipo de pelota: Las pelotas 1, 2 y 3 deberían aparecer aleatoriamente
+6.	Solo se genera un tipo de pelota: Las pelotas 1, 2 y 3 deberían aparecer aleatoriamente
 
+### Enlaces a archivos desafío 2: 
+- [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Desafio2)
+- [Video explicación](https://drive.google.com/file/d/12qtvjJFInExBBwCtfiLCwSrtHay-Hxnf/view?usp=sharing)
 
 ## Desafío 3 - Globos, bombas y booleanos
 
