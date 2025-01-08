@@ -25,7 +25,7 @@ Este desafío consiste en poner en práctica tus habilidades y solucionar los er
 6.	Bono: la hélice del avión no gira: Crea un script que haga girar la hélice del avión.
 
 ### Enlaces a archivos desafío 1: 
-- [Archivo package]()
+- [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Desafío 1)
 - [Video explicación]()
   
 ## Desafío 3: Globos, bombas y booleanos
