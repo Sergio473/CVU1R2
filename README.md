@@ -56,3 +56,11 @@ Este desafío consiste en poner en práctica tus habilidades y solucionar los er
 ### Enlaces a archivos desafío 3: 
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Desafio3)
 - [Video explicación](https://drive.google.com/file/d/1O4l99Fm32bypmiUoexypQTY0owZz4cO3/view?usp=sharing)
+
+## Desafío 5 – Aplasta Comida 
+1.	Los botones de dificultad se ven mal: Centra el texto de los botones horizontal y verticalmente.
+2.	La comida se destruye demasiado rápido: La comida solo debe destruirse cuando el jugador haga clic en ella, no cuando el mouse la toque.
+3.	El puntaje se sobrescribe con la palabra «Score»: Siempre debe decir «Score: __» y el valor se debe mostrar después de «Score:».
+4.	Tras perder, no hay forma de reiniciar: Haz que aparezca el botón Restart en la pantalla de fin del juego.
+5.	Los botones de dificultad no cambian la dificultad: El spawnRate siempre es demasiado rápido. Cuando haces clic en Easy, el spawnRate debe ser más lento; si haces clic en Hard, el spawnRate debe ser más rápido.
+6.	Extra: El juego nunca se detiene: Agrega un elemento «Time: __» que ejecute una cuenta regresiva desde 60 en números enteros (es decir, 59, 58, 57, etc.) y que desencadene la secuencia de fin del juego cuando llegue a 0.
