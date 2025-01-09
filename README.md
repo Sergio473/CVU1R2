@@ -12,7 +12,11 @@
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Prototype3)
 - [Video explicación](https://drive.google.com/file/d/1FaLsA0AFhRHBucEqV3HWurF9vtgG9Sjn/view?usp=sharing)
 
-## Unidad 5 - 
+## Unidad 5 - Interfaz de usuario
+
+### Enlaces a archivo y video de las lecciones 5.1 a 5.4:
+- [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Prototype5)
+- [Video explicación]()
     
 # Actividad 2 - Desafíos
 
@@ -41,7 +45,7 @@ Este desafío consiste en poner en práctica tus habilidades y solucionar los er
 
 ### Enlaces a archivos desafío 2: 
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Desafio2)
-- [Video explicación](https://drive.google.com/file/d/12qtvjJFInExBBwCtfiLCwSrtHay-Hxnf/view?usp=sharing)
+- [Video explicación]()
 
 ## Desafío 3 - Globos, bombas y booleanos
 
@@ -64,3 +68,7 @@ Este desafío consiste en poner en práctica tus habilidades y solucionar los er
 4.	Tras perder, no hay forma de reiniciar: Haz que aparezca el botón Restart en la pantalla de fin del juego.
 5.	Los botones de dificultad no cambian la dificultad: El spawnRate siempre es demasiado rápido. Cuando haces clic en Easy, el spawnRate debe ser más lento; si haces clic en Hard, el spawnRate debe ser más rápido.
 6.	Extra: El juego nunca se detiene: Agrega un elemento «Time: __» que ejecute una cuenta regresiva desde 60 en números enteros (es decir, 59, 58, 57, etc.) y que desencadene la secuencia de fin del juego cuando llegue a 0.
+
+### Enlaces a archivos desafío 5: 
+- [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Desafio5)
+- [Video explicación]()
