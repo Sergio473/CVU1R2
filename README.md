@@ -1,3 +1,7 @@
+# Archivo con descripción de las lecciones
+[Archivo Lecciones](https://drive.google.com/file/d/1_U-35ROzeabyEa8KaAW9m6fU30DF-qEL/view?usp=sharing)
+
+
 # Actividad 1 - Curso de Junior Programmer
 
 ## Unidad 2 - Jugabilidad básica
