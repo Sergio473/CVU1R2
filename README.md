@@ -16,7 +16,7 @@
 
 ### Enlaces a archivo y video de las lecciones 5.1 a 5.4:
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Prototype5)
-- [Video explicación]()
+- [Video explicación](https://drive.google.com/file/d/1TgNGypYT-svkqUFigCjtHYMfymaTr7o-/view?usp=sharing)
     
 # Actividad 2 - Desafíos
 
@@ -45,7 +45,7 @@ Este desafío consiste en poner en práctica tus habilidades y solucionar los er
 
 ### Enlaces a archivos desafío 2: 
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Desafio2)
-- [Video explicación]()
+- [Video explicación](https://drive.google.com/file/d/14eu15wSZtb8EhsiduJntZsyLW_bATXvp/view?usp=sharing)
 
 ## Desafío 3 - Globos, bombas y booleanos
 
@@ -71,4 +71,4 @@ Este desafío consiste en poner en práctica tus habilidades y solucionar los er
 
 ### Enlaces a archivos desafío 5: 
 - [Archivo package](https://github.com/Sergio473/CVU1R2/releases/Desafio5)
-- [Video explicación]()
+- [Video explicación](https://drive.google.com/file/d/1_o3Rn8D7VetKUi_xmrKUU_cBQJWZn2X7/view?usp=sharing)
